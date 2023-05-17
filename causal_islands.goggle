@@ -1,0 +1,40 @@
+! name: Causal Islands
+! description: Rerank results to only include websites from Causal Islands speakers.
+! public: true
+! author: Alexandre Nicastro
+! avatar: #1c1c1c
+! homepage: https://github.com/AlexxNica/goggles
+! issues: https://github.com/AlexxNica/goggles/issues
+! license: MIT
+
+! Remove results not matching any other rule
+$discard
+
+! From: https://github.com/bmann/lieu/blob/7a7396df699373b821f8cb8b7af840f7096d632c/data/webring.txt
+$site=www.rupertparry.com
+/~sk$site=cs.brown.edu
+/pls/apex/f?p=labs:bio:0:21$site=labs.oracle.com
+$site=nas.sr
+$site=emma.coop
+/edwinb$site=www.type-driven.org.uk
+/computer-science/people/ecb10$site=www.st-andrews.ac.uk
+$site=maggieappleton.com
+$site=chia.design
+$site=www.geoffreylitt.com
+$site=jennschiffer.com
+$site=swardley.medium.com
+$site=blog.gardeviance.org
+$site=halobrewery.com
+/expede$site=noti.st
+/expede$site=github.com
+$site=oncorbett.ca
+$site=agregore.mauve.moe
+$site=quinnwilton.com
+$site=michaelrbernste.in
+/display/ogbornd$site=experts.mcmaster.ca
+$site=www.verses.xyz
+$site=www.readtrellis.com
+$site=fission.codes
+$site=talk.fission.codes
+$site=bmannconsulting.com
+$site=bmann.ca
