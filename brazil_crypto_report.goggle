@@ -1,0 +1,16 @@
+! name: Brazil Crypto Report
+! description: Rerank results to only include websites from Brazil Crypto Report.
+! public: true
+! author: Alexandre Nicastro
+! avatar: #1c1c1c
+! homepage: https://github.com/AlexxNica/goggles
+! issues: https://github.com/AlexxNica/goggles/issues
+! license: MIT
+
+! Remove results not matching any other rule
+$discard
+
+! Websites
+$site=brazilcrypto.io
+$site=newsletter.brazilcrypto.io
+$site=brazilcrypto.substack.com
